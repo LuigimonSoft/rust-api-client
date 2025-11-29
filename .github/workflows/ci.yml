@@ -12,7 +12,11 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: llvm-tools-preview
-
+      
+      - name: Run tests
+        run: cargo test
+      - name: Run ignored tests
+        run: cargo test -- --ignored
       - name: Install cargo-llvm-cov
         run: cargo install cargo-llvm-cov --locked
 
