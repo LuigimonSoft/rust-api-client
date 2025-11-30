@@ -2,6 +2,13 @@
 name = "rust-api-client"
 version = "1.0.0"
 edition = "2024"
+authors = ["Luis Carlos Carrillo (Luigimonsoft)"]
+description = "Lightweight Rust library for Microsoft SQL Server using dataset and datatable"
+license = "MIT"
+readme = "README.md"
+keywords = ["rest", "api", "client", "http", "async", "rust"]
+categories = ["asynchronous", "network-programming"]
+repository = "https://github.com/Luigimonsoft/rust-api-client"
 
 [lib]
 name = "rust_api_client"
