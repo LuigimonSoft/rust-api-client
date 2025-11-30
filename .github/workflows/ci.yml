@@ -35,6 +35,8 @@ jobs:
           components: llvm-tools-preview
       - name: Install cargo-llvm-cov
         run: cargo install cargo-llvm-cov --locked
+      - name: Prepare coverage directory
+        run: mkdir -p coverage
       - name: Generate coverage report (Cobertura)
         run: cargo llvm-cov --all-features --workspace --cobertura --output-path coverage/cobertura.xml
       - name: SonarQube Scan
