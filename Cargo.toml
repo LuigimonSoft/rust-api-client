@@ -6,7 +6,7 @@ authors = ["Luis Carlos Carrillo (Luigimonsoft)"]
 description = "A reusable REST client in Rust with authenticate"
 license = "MIT"
 readme = "README.md"
-keywords = ["rest", "api", "client", "http", "async", "rust"]
+keywords = ["rest", "api", "client", "http", "rust"]
 categories = ["asynchronous", "network-programming"]
 repository = "https://github.com/Luigimonsoft/rust-api-client"
 
