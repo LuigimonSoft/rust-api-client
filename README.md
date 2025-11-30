@@ -385,3 +385,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 - [Rust Documentation](https://doc.rust-lang.org/)
 - [Reqwest](https://docs.rs/reqwest/)
 - [Tokio](https://tokio.rs/)
+
+## SonarQube Quality Gate Status
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=LuigimonSoft_rust-api-client)](https://sonarcloud.io/summary/new_code?id=LuigimonSoft_rust-api-client)
+
+- Coverage: [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=LuigimonSoft_rust-api-client&metric=coverage)](https://sonarcloud.io/summary/new_code?id=LuigimonSoft_rust-api-client)
